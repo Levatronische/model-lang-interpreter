@@ -1,0 +1,14 @@
+program
+int i = 0, sum = 0, n;
+real x = 1.5;
+
+read(n);
+while (i <= n) {
+    sum = sum + i;
+    i = i + 1;
+}
+write("Сумма от 0 до n:");
+write(sum);
+if (sum > 10) write("больше десяти"); else write("не больше десяти");
+for (int k = 0; k < 3; k = k + 1) write(k);
+write(x + 2.0);
